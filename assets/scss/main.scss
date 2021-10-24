@@ -1,17 +1,22 @@
 @charset "utf-8";
 
-@import "~bulma/sass/utilities/_all";
 @import "~bulma/sass/utilities/initial-variables";
 @import "~bulma/sass/utilities/functions";
 @import "~bulma/sass/utilities/derived-variables";
 @import "~bulma/sass/utilities/mixins";
 @import "~bulma/sass/utilities/controls";
 
+//COLOR VARIABLES
 $primary: #FFF;
 
 // BODY VARIABLES
 $body-color: #fff;
 $body-background-color: #000;
+$body-family: $family-sans-serif;
+
+//FONTS VARIABLES
+$family-sans-serif: 'Inter', 'Helvetica', 'Arial', sans-serif;
+$family-secondary: 'Poppins', 'Helvetica', 'Arial', sans-serif;
 
 // Import Bulma and Buefy styles
 @import "~bulma";

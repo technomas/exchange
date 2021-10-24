@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style lang="scss">
-
+.sidebar{
+  font-family: $family-secondary;
+}
 </style>

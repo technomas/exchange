@@ -1,4 +1,4 @@
-<template functional>
+<template>
   <main
     class="base-page"
     :class="`base-page--${pageName}`"
