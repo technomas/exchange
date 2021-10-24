@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'front-view',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ru'
     },
     meta: [
       { charset: 'utf-8' },
@@ -35,7 +35,15 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
+    '@nuxtjs/style-resources'
+
   ],
+
+  styleResources: {
+    scss: [
+      '@/assets/scss/main.scss'
+    ]
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
